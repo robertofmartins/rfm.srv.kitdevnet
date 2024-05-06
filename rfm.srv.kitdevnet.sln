@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rfm.srv.kitdevnet.api", "rfm.srv.kitdevnet.api\rfm.srv.kitdevnet.api.csproj", "{49806472-C8DB-4C1E-A178-6FA6BFCB9A62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rfm.srv.kitdevnet.domain", "rfm.srv.kitdevnet.domain\rfm.srv.kitdevnet.domain.csproj", "{3C42A294-0581-46EA-9BCE-4318D2ABF7A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rfm.srv.kitdevnet.output.sqlserver.dapper", "rfm.srv.kitdevnet.output.sqlserver\rfm.srv.kitdevnet.output.sqlserver.dapper.csproj", "{E1EC18EC-B488-4BFB-954D-318F06535354}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rfm.srv.kitdevnet.service", "rfm.srv.kitdevnet.service\rfm.srv.kitdevnet.service.csproj", "{9CC0AB99-CE2E-47D2-8D12-745487179DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rfm.srv.kitdevnet.output.sqlserver.ef", "rfm.srv.kitdevnet.output.efsqlserver\rfm.srv.kitdevnet.output.sqlserver.ef.csproj", "{505FE008-54D3-4449-9917-AC34892D7321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rfm.srv.kitdevnet.output.mongo", "rfm.srv.kitdevnet.output.mongo\rfm.srv.kitdevnet.output.mongo.csproj", "{14D4FDC4-F046-44FB-8484-CAE2D4E277FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49806472-C8DB-4C1E-A178-6FA6BFCB9A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49806472-C8DB-4C1E-A178-6FA6BFCB9A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49806472-C8DB-4C1E-A178-6FA6BFCB9A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49806472-C8DB-4C1E-A178-6FA6BFCB9A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C42A294-0581-46EA-9BCE-4318D2ABF7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C42A294-0581-46EA-9BCE-4318D2ABF7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C42A294-0581-46EA-9BCE-4318D2ABF7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C42A294-0581-46EA-9BCE-4318D2ABF7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EC18EC-B488-4BFB-954D-318F06535354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EC18EC-B488-4BFB-954D-318F06535354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EC18EC-B488-4BFB-954D-318F06535354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EC18EC-B488-4BFB-954D-318F06535354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC0AB99-CE2E-47D2-8D12-745487179DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC0AB99-CE2E-47D2-8D12-745487179DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC0AB99-CE2E-47D2-8D12-745487179DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC0AB99-CE2E-47D2-8D12-745487179DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505FE008-54D3-4449-9917-AC34892D7321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505FE008-54D3-4449-9917-AC34892D7321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505FE008-54D3-4449-9917-AC34892D7321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505FE008-54D3-4449-9917-AC34892D7321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D4FDC4-F046-44FB-8484-CAE2D4E277FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D4FDC4-F046-44FB-8484-CAE2D4E277FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D4FDC4-F046-44FB-8484-CAE2D4E277FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D4FDC4-F046-44FB-8484-CAE2D4E277FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC61B4E2-528E-4C47-84AC-AF8D5394DD33}
+	EndGlobalSection
+EndGlobal
