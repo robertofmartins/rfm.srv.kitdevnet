@@ -19,6 +19,8 @@
     <ProjectReference Include="..\rfm.srv.kitdevnet.domain\rfm.srv.kitdevnet.domain.csproj" />
     <ProjectReference Include="..\rfm.srv.kitdevnet.output.efsqlserver\rfm.srv.kitdevnet.output.sqlserver.ef.csproj" />
     <ProjectReference Include="..\rfm.srv.kitdevnet.output.mongo\rfm.srv.kitdevnet.output.mongo.csproj" />
+    <ProjectReference Include="..\rfm.srv.kitdevnet.output.sqlserver.dapper\rfm.srv.kitdevnet.output.sqlserver.dapper.csproj" />
+    <ProjectReference Include="..\rfm.srv.kitdevnet.output.sqlserver.ef\rfm.srv.kitdevnet.output.sqlserver.ef.csproj" />
     <ProjectReference Include="..\rfm.srv.kitdevnet.output.sqlserver\rfm.srv.kitdevnet.output.sqlserver.dapper.csproj" />
     <ProjectReference Include="..\rfm.srv.kitdevnet.service\rfm.srv.kitdevnet.service.csproj" />
   </ItemGroup>
